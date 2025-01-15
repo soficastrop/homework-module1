@@ -3,6 +3,9 @@
     <head>
         <title> Introducing California's Greatest Cliffs </title>
         <meta charset="utf-8">
+
+        <!-- Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
        
         <!-- Embed Style Method-->
        <style>
@@ -23,7 +26,7 @@
             min-height: 100px;
             height: 100px;
         }
-        .main-header .logo img{
+        .main-header .logo img {
             width: 100px;
             height: 100px;
             margin: 0 2em 0 0;
@@ -31,7 +34,7 @@
         }
         /*Nav*/
         .main-menu{
-            margin-left: 127px;
+            margin-left: 150px; /*should be 227*/
             font-weight: 400;
         }
         .main-menu ul li {
@@ -62,6 +65,10 @@
         /*Main*/
         main {
             font-family: Arial, Helvetica, sans-serif;
+            padding-top: 70px;
+            padding-left: 100px;
+            padding-right: 100px;
+            padding-bottom: 30px;
         }
         h1 {
             font-weight: bold;
@@ -105,6 +112,11 @@
             padding-bottom: lem;
             background-color: #ecfab8;
         }
+        footer #nondisclaimer .copy {
+            padding: 3.5em 3.5em 3.5em 13em;
+            float: left;
+            font-size: 0.9em;
+        }
         footer #nondisclaimer .social {
             padding: 2.5em;
             margin-right: 9.25em;
@@ -117,11 +129,38 @@
             font-size: 0.85em;
             text-align: center;
         }
+        footer #nondisclaimer .social .fa {
+            padding: 15px;
+            font-size: 15px;
+            width: 15px;
+            text-align: center;
+            text-decoration: none;
+            margin: 0 4px;
+            border-radius: 50%;
+        }
+        footer #nondisclaimer .social .fa:hover {
+            opacity: 0.7;
+        }
+        footer #nondisclaimer .social .fa-facebook {
+            background: #3b5998;
+            color: white;
+        }
+        footer #nondisclaimer .social .fa-instagram {
+            background: #125688;
+            color: white;
+        }
+        footer #nondisclaimer .social .fa-twitter {
+            background: #55ACEE;
+            background: white;
+        }
+
         </style>
+
     </head>
+
     <body id="home">
         <!-- Container to wrap everything -->
-        <div id="container">
+    <div id="container">
         <header>
             <div class="main-header">
                 <div class="logo">
@@ -136,10 +175,11 @@
                         <li><a href="opinion.html">Opinion</a></li>
                     </ul>
                 </nav>
-                 <!--End Nav-->
+                <!--End Nav-->
             </div>
-            </div>
-        </header>
+    </div>
+         </header>
+        </br>
                     <!-- Begin Main Content -->
                     <main>
                         <h1>Introducing California's Greatest Cliffs</h1>
@@ -180,9 +220,9 @@
                  &copy; Copyright 2025 :: GreatCliffs.com 
             </div>
             <div class="social">
-                <h3>Facebook Image</h3>
-                <h3>Instagram Image</h3>
-                <h3>Twitter Image</h3>
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-instagram"></a>
+                <a href="#" class="fa fa-twitter"></a>
             </div>
         </div> 
         <div id="disclaimer">
